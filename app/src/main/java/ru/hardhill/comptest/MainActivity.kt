@@ -35,13 +35,17 @@ class MainActivity : ComponentActivity() {
                 ListItem(name = "Waclaw", prof = "programmer")
                 ListItem(name = "Waclaw", prof = "programmer")
                 ListItem(name = "Waclaw", prof = "programmer")
+                ListItem(name = "Waclaw", prof = "programmer")
+                ListItem(name = "Waclaw", prof = "programmer")
+                ListItem(name = "Waclaw", prof = "programmer")
+                ListItem(name = "Waclaw", prof = "programmer")
             }
 
         }
     }
 }
 
-
+@Preview(name = "item")
 @Composable
 fun ListItem(name: String, prof: String) {
     Card(
